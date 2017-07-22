@@ -1,0 +1,22 @@
+{
+  "extends": [
+    "airbnb"
+  ],
+  "env": {
+    "browser": true,
+    "es6":     true,
+    "mocha":   true
+  },
+  "parser": "babel-eslint",
+  "rules": {
+    "comma-dangle": ["error", "never"],
+    "import/extensions": ["error", "never", {
+      "pcss": "always"
+    }],
+    "import/no-extraneous-dependencies": "off",
+    "import/no-unresolved": "off",
+    "react/forbid-prop-types": ["error", {
+      "forbid": ["any"]
+    }]
+  }
+}

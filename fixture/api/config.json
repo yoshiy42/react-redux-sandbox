@@ -1,0 +1,14 @@
+{
+  "mockDirectory": "fixture/api",
+  "quiet": false,
+  "port": "8089",
+  "logRequestHeaders": false,
+  "allowedDomains": [
+    "http://localhost:8088"
+  ],
+  "allowedHeaders": [
+    "Access-Control-Allow-Origin"
+  ],
+  "corsCredentials": "true",
+  "webServices": {}
+}
